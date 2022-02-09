@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Simple Slack Bot that responds to greetings and pleasantries and has a small short conversation with the slack user
+A Simple Slack Bot that responds to greetings
 
 ## Running locally
 
@@ -29,7 +29,7 @@ export SLACK_APP_TOKEN=<your-app-level-token> # from the Basic Info App Token Se
 
 ```zsh
 # Clone this project onto your machine
-git clone https://github.com/TonyCookey/slack-bot.git
+git clone https://github.com/Vectormike/verbose-winner slack-bot
 
 # Change into the project
 cd slack-bot
@@ -43,7 +43,3 @@ npm install
 ```zsh
 npm run start
 ```
-
-### 4. Test
-
-Go to the installed workspace and type **/Hello** in a DM to your new bot. You can also type **/Hello** in a channel where the bot is present
